@@ -1,0 +1,16 @@
+resolver: lts-18.21
+packages:
+  - .
+extra-deps:
+  - git: https://github.com/miguel-negrao/essence-of-live-coding.git
+    commit: 5117db93d58a73af048ca45c1d772778ed097e88 
+    subdirs:
+      - essence-of-live-coding
+      - essence-of-live-coding-vivid
+      - essence-of-live-coding-PortMidi
+  - PortMidi-0.2.0.0@sha256:0671e36ec72e95138bf396234b205864a8a6d0ee353e09e01cbfd57004c56f40,2383
+  - vivid-0.5.2.0@sha256:c3b8a9994c44fe347c1ed0b0d48cd0572e71e91b793c0e2e1887afa2bb01e595,8330
+  - vivid-osc-0.5.0.0@sha256:633e5c1c87633feaa26019442c3ae63946001c7afe2afa4d2cf22586bd4b182c,2786
+  - vivid-supercollider-0.4.1.2@sha256:c7493f2a67b04589df8943e58a7445803e3365c6ad439603bf35695734b9bd65,1738
+
+pvp-bounds: both
